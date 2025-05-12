@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/blessedmadukoma/Desktop/Areas/ds_and_ml/mlops-zoomcamp-solution/02-mlfow/mlruns/162750611504288941/ca7968be138d4564bb741713a2b4f51c/artifacts
+end_time: 1747058731294
+entry_point_name: ''
+experiment_id: '162750611504288941'
+lifecycle_stage: active
+run_id: ca7968be138d4564bb741713a2b4f51c
+run_name: luminous-eel-205
+run_uuid: ca7968be138d4564bb741713a2b4f51c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747058714655
+status: 3
+tags: []
+user_id: blessedmadukoma
