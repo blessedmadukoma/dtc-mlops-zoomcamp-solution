@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/d42701a3cf1c407486e16889374316aa/artifacts
+end_time: 1747058460526
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d42701a3cf1c407486e16889374316aa
+run_name: homework-2-solution
+run_uuid: d42701a3cf1c407486e16889374316aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747058433416
+status: 3
+tags: []
+user_id: blessedmadukoma
