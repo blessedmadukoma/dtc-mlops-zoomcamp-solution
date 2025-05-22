@@ -1,0 +1,92 @@
+blocks:
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - transform_yellow_taxi_march_2023
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: ingest_yellow_taxi_march_2023
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_loader
+  upstream_blocks: []
+  uuid: ingest_yellow_taxi_march_2023
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - train_linear_regression
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: transform_yellow_taxi_march_2023
+  retry_config: null
+  status: executed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - ingest_yellow_taxi_march_2023
+  uuid: transform_yellow_taxi_march_2023
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - export_model_to_mlflow
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: train_linear_regression
+  retry_config: null
+  status: executed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - transform_yellow_taxi_march_2023
+  uuid: train_linear_regression
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: export_model_to_mlflow
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - train_linear_regression
+  uuid: export_model_to_mlflow
+cache_block_output_in_memory: false
+callbacks: []
+concurrency_config: {}
+conditionals: []
+created_at: '2025-05-22 08:40:26.305763+00:00'
+data_integration: null
+description: Yellow Taxi Ingestion for March 2023
+executor_config: {}
+executor_count: 1
+executor_type: null
+extensions: {}
+name: yellow_taxi_ingestion
+notification_config: {}
+remote_variables_dir: null
+retry_config: {}
+run_pipeline_in_one_process: false
+settings:
+  triggers: null
+spark_config: {}
+tags:
+- ingestion
+type: python
+uuid: yellow_taxi_ingestion
+variables_dir: /home/src/mage_data/HOMEWORK_3_SOLUTION
+widgets: []
