@@ -1,0 +1,17 @@
+{
+  "id": "01979252-cd02-750c-bf0f-e0e370e851f9",
+  "name": "NYC Taxi Data Quality Project",
+  "description": "My project descriotion",
+  "dashboard": {
+    "name": "NYC Taxi Data Quality Project",
+    "panels": [],
+    "tabs": [],
+    "tab_id_to_panel_ids": {}
+  },
+  "team_id": null,
+  "org_id": null,
+  "date_from": null,
+  "date_to": null,
+  "created_at": "2025-06-21T13:49:49.443317",
+  "version": "1"
+}
