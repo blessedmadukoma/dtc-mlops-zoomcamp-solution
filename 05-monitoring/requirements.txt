@@ -1,0 +1,7 @@
+requests
+pandas
+evidently==0.6.7
+joblib
+tqdm
+scikit-learn
+matplotlib
